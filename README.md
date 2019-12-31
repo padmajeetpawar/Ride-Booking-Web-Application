@@ -20,8 +20,8 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 ## AI/ML Model for Ride fare prediction
 
 •	dataset downloaded from cityofchicago portal  
-	dataset name : Transportation Network Providers – Trips  
-	dataset link : https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p/data
+    -> dataset name : Transportation Network Providers – Trips  
+    -> dataset link : https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p/data
 •	Pandas for data processing  
 •	Feature Engineering for Data Cleansing   
 •	Random Forest Method for Model training and fare predicition  
