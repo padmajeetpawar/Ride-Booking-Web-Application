@@ -3,7 +3,7 @@
 Java enterprise web application which is similar to Uber and Lyft ride booking application that allows customer to book Shared or solo ride. We are using ML model to predict increase or decrease for the rider fare 
 
 ## Getting Started
-•	Download/Clone all files on local system which contains all java, python code and all other project files that requires for project execution.
+•	Download/Clone all files on local system which contains all java, python code and all other project files that requires for project execution
 •	Start Tomcat and MySQL Server
 •	run MySQL Database script for creating Project Database structure on local system
 •	run the fare_api.py using "python fare_api.py" command for starting flask api for getting taxi fare from machine learning model
