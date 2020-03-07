@@ -49,8 +49,8 @@ The Chicago City Data Portal's Transportation Network Providers - Trips dataset 
 
 From this dataset, we took 1 million records with only [Trip Miles, Trip Total, Shared Trip Authorized, Trips Pooled] columns using random sampling. This was done as the 100 million records did not fit into memory and the random sampling feature of pandas gives a very good sub sample of a dataset with same mean, variance & standard deviation.
 
-<br />  
-## Contributing
+ 
+## Contributing  
 •	https://www.kaggle.com/  
 •	https://github.com/  
 
