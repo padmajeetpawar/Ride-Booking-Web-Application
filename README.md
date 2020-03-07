@@ -17,17 +17,34 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 •	MySQL Database server  
 •	Anaconda (for Package dependencies)   
 
-## AI/ML Model for Ride fare prediction
+### Technologies used in the application
 
-•	dataset downloaded from cityofchicago portal  
-    -> dataset name : Transportation Network Providers – Trips  
-    -> dataset link : https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p/data
-•	Pandas for data processing  
-•	Feature Engineering for Data Cleansing   
-•	Random Forest Method for Model training and fare predicition  
-•	Joblib package for dumping model in ".lzma" format  
-•	Flask API for runnning webservice on seperate port  
-•	JSON for passing values to Machine learning model and getting fare prediction using FLASK API  
+•   Java Servlets
+•   HTML & CSS
+•   MySQL Database
+•   MySQL CRUD Operations
+•   Application User Roles (Rider/Driver/Admin)
+•   Data Analytics & Visualizations
+•   Python
+•   Jupyter Notebooks
+•   JavaScript
+•   
+
+#### _Others:_
+
+•   Google Maps, Places & Distance Matrix APIs
+•   REST API
+•   Dask for handling large amount of data (100 million records which don't fit in memory) and extraction useful data from the said data.
+•   Numpy, Scipy & Pandas for Data - Cleaning & Analysis.
+•   scikit-learn for Machine Learning Model - Selection, Creation & Evaluation.
+•   RandomForestRegression - machine learning algorithm to estimate fare for a ride based on the distance, duration (from • •     •   google distance matrix api) & number of perople sharing the ride.
+
+### Dataset used for the application
+
+The Chicago City Data Portal's Transportation Network Providers - Trips dataset has been used for this application. The dataset contains 100,717,116 records of ridesharing trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as part of routine reporting required by ordinance. It contains trip start & end times, trip miles, trip total, pickup areas and many more informations for each trip.
+
+From this dataset, we took 1 million records with only [Trip Miles, Trip Total, Shared Trip Authorized, Trips Pooled] columns using random sampling. This was done as the 100 million records did not fit into memory and the random sampling feature of pandas gives a very good sub sample of a dataset with same mean, variance & standard deviation.
+
 
 ## Contributing
 •	https://www.kaggle.com/  
