@@ -40,7 +40,8 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 •   scikit-learn for Machine Learning Model - Selection, Creation & Evaluation  
 •   RandomForestRegression - machine learning algorithm to estimate fare for a ride based on the distance, duration  
 •   google distance matrix api) & number of perople sharing the ride  
-<br />  
+
+***
 
 ### Dataset used for the application
 
