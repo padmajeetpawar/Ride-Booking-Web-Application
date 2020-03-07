@@ -11,6 +11,7 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 •	enter the URL "localhost:/8080/DriveZy" on browser (8080 Tomcat Port)  
 •	Follow the screenshots.pdf for exploring project features Prerequisites  
 
+<br />
 ### Prerequisites
 •	Java SE (v6 and above)  
 •	Python (v2.7 and above)  
@@ -18,6 +19,7 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 •	MySQL Database server  
 •	Anaconda (for Package dependencies)   
 
+<br />
 ### Technologies used in the application
 
 •   Java Servlets
@@ -40,13 +42,14 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 •   scikit-learn for Machine Learning Model - Selection, Creation & Evaluation.
 •   RandomForestRegression - machine learning algorithm to estimate fare for a ride based on the distance, duration (from • •     •   google distance matrix api) & number of perople sharing the ride.
 
+<br />
 ### Dataset used for the application
 
 The Chicago City Data Portal's Transportation Network Providers - Trips dataset has been used for this application. The dataset contains 100,717,116 records of ridesharing trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as part of routine reporting required by ordinance. It contains trip start & end times, trip miles, trip total, pickup areas and many more informations for each trip.
 
 From this dataset, we took 1 million records with only [Trip Miles, Trip Total, Shared Trip Authorized, Trips Pooled] columns using random sampling. This was done as the 100 million records did not fit into memory and the random sampling feature of pandas gives a very good sub sample of a dataset with same mean, variance & standard deviation.
 
-
+<br />
 ## Contributing
 •	https://www.kaggle.com/  
 •	https://github.com/  
