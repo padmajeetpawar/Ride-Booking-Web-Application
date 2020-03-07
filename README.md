@@ -1,6 +1,7 @@
 # DriveZy
 # Ride Sharing Application Similar to Uber/Lyft using AI/ML to predivt the ride fare
 Java enterprise web application which is similar to Uber and Lyft ride booking application that allows customer to book Shared or solo ride. We are using ML model to predict increase or decrease for the rider fare 
+<br /> 
 
 ## Getting Started
 •	Download/Clone all files on local system which contains all java, python code and all other project files that requires for project execution  
