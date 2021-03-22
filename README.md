@@ -26,7 +26,7 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 ### Technologies used in the application
 
 •   Java Servlets  
-•   HTML & CSS  
+•   HTML5 & CSS3  
 •   MySQL Database  
 •   MySQL CRUD Operations  
 •   Application User Roles (Rider/Driver/Admin)  
