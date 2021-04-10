@@ -36,7 +36,7 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 •   JavaScript  
 #### _Others:_
 
-•   Google Maps, Places & Distance Matrix APIs
+•   Google Maps, Places & Distance Matrix APIs  
 •   Dask for handling large amount of data (100 million records which don't fit in memory) and extraction useful data from the said data  
 •   Numpy, Scipy & Pandas for Data - Cleaning & Analysis  
 •   scikit-learn for Machine Learning Model - Selection, Creation & Evaluation  
