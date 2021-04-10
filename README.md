@@ -15,7 +15,7 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 ***
 
 ### Prerequisites
-•	Java SE (v6 and above)  
+•	Java SE (v7 and above)  
 •	Python (v2.7 and above)  
 •	Tomcat (v8 and above)  
 •	MySQL Database server  
