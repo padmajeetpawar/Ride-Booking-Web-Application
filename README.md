@@ -45,6 +45,11 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 
 ***
 
+### Use of Machine Learning in the application:
+• Machine Learning has been used to predict/estimate the fare for a given trip based on: trip distance in miles (given by google distance matrix api), trip duration in seconds (iven by google distance matrix api), is the ride shared or individual (true/false) and number of riders in the trip (will be 1 in case of an individual ride).
+• The machine learning model creation and evaluation notebooks are located here.
+• The machine learning algorithm used is RandomForestRegressor implemented from scikit-learn.
+
 ### Dataset used for the application
 
 The Chicago City Data Portal's Transportation Network Providers - Trips dataset has been used for this application. The dataset contains 100,717,116 records of ridesharing trips, starting November 2018, reported by Transportation Network Providers (sometimes called rideshare companies) to the City of Chicago as part of routine reporting required by ordinance. It contains trip start & end times, trip miles, trip total, pickup areas and many more informations for each trip.
