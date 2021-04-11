@@ -46,9 +46,7 @@ Java enterprise web application which is similar to Uber and Lyft ride booking a
 ***
 
 ### Use of Machine Learning in the application:
-• Machine Learning has been used to predict/estimate the fare for a given trip based on: trip distance in miles (given by google distance matrix api), trip duration in seconds (iven by google distance matrix api), is the ride shared or individual (true/false) and number of riders in the trip (will be 1 in case of an individual ride).
-• The machine learning model creation and evaluation notebooks are located here.
-• The machine learning algorithm used is RandomForestRegressor implemented from scikit-learn.
+• Machine Learning has been used to predict/estimate the fare for a given trip based on: trip distance in miles (given by google distance matrix api), trip duration in seconds (iven by google distance matrix api), is the ride shared or individual (true/false) and number of riders in the trip (will be 1 in case of an individual ride).The machine learning algorithm used is RandomForestRegressor implemented from scikit-learn.  
 
 ### Dataset used for the application
 
